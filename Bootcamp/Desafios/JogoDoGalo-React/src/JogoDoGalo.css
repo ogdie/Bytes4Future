@@ -1,0 +1,137 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.jogo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+.jogo-container, h1, h2, span {
+  font-family: 'Pirata One', cursive, Arial, sans-serif;
+  color: #C1440E;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 1.5rem;
+}
+
+.tabuleiro {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.linha {
+  display: flex;
+}
+
+.casa {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  margin: 2px;
+  cursor: pointer;
+  border: 2px solid #333;
+  background-color: #fff;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.casa:hover {
+  background-color: #eee;
+}
+
+.icone-jogador {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.vez-jogador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icone-vencedor {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  vertical-align: middle;
+
+}
+
+.vencedor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone-pata {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  pointer-events: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-reiniciar {
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-reiniciar::after {
+  content: "REINICIAR";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #C1440E;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.btn-reiniciar:hover::after {
+  opacity: 1;
+  pointer-events: auto;
+}
