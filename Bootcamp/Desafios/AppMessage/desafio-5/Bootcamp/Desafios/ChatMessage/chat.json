@@ -1,0 +1,136 @@
+{
+  "messages": [
+    {
+      "from": "beatriz",
+      "to": "leandro",
+      "content": "Olá Leandro! Já preparaste o material de apoio para a aula de HTML?",
+      "dateInMs": 1728349200000
+    },
+    {
+      "from": "leandro",
+      "to": "beatriz",
+      "content": "Olá Beatriz! Sim, finalizei ontem os exemplos de tags semânticas e exercícios práticos.",
+      "dateInMs": 1728352800000
+    },
+    {
+      "from": "beatriz",
+      "to": "francisco",
+      "content": "Francisco, achas que devemos começar o módulo de CSS antes de introduzir JavaScript?",
+      "dateInMs": 1728356400000
+    },
+    {
+      "from": "francisco",
+      "to": "beatriz",
+      "content": "Sim, acho que sim. Os alunos ainda precisam consolidar o layout com flexbox e grid.",
+      "dateInMs": 1728360000000
+    },
+    {
+      "from": "beatriz",
+      "to": "ariane",
+      "content": "Ariane, conseguiste rever o plano de aulas do módulo de JavaScript?",
+      "dateInMs": 1728363600000
+    },
+    {
+      "from": "ariane",
+      "to": "beatriz",
+      "content": "Sim, já ajustei a ordem dos temas. Vamos começar por funções e depois objetos, como combinámos.",
+      "dateInMs": 1728367200000
+    },
+    {
+      "from": "leandro",
+      "to": "francisco",
+      "content": "Francisco, conseguiste configurar o servidor Express para as demonstrações de backend?",
+      "dateInMs": 1728370800000
+    },
+    {
+      "from": "francisco",
+      "to": "leandro",
+      "content": "Sim, está tudo a funcionar. Preparei também um exemplo simples de API com rotas REST.",
+      "dateInMs": 1728374400000
+    },
+    {
+      "from": "francisco",
+      "to": "ariane",
+      "content": "Ariane, queres que eu te envie o exemplo de integração frontend-backend que usei na aula de React?",
+      "dateInMs": 1728378000000
+    },
+    {
+      "from": "ariane",
+      "to": "francisco",
+      "content": "Sim, por favor! Assim posso adaptar para o exercício da próxima semana.",
+      "dateInMs": 1728381600000
+    },
+    {
+      "from": "ariane",
+      "to": "beatriz",
+      "content": "Beatriz, achas que devemos incluir uma introdução ao TypeScript no final do módulo de React?",
+      "dateInMs": 1728385200000
+    },
+    {
+      "from": "beatriz",
+      "to": "ariane",
+      "content": "Boa ideia! Pode ser interessante mostrar o básico, só para lhes dar contexto.",
+      "dateInMs": 1728388800000
+    },
+    {
+      "from": "leandro",
+      "to": "beatriz",
+      "content": "Beatriz, tens o ficheiro com os slides do módulo de Frontend?",
+      "dateInMs": 1728392400000
+    },
+    {
+      "from": "beatriz",
+      "to": "leandro",
+      "content": "Sim, já te envio pelo email. Acrescentei uma secção sobre boas práticas de design responsivo.",
+      "dateInMs": 1728396000000
+    },
+    {
+      "from": "ariane",
+      "to": "francisco",
+      "content": "Francisco, consegui integrar o fetch no frontend! Já mostra as mensagens corretamente.",
+      "dateInMs": 1728406800000
+    },
+    {
+      "from": "francisco",
+      "to": "ariane",
+      "content": "Excelente! Isso vai ajudar os alunos a perceberem como ligar o React ao servidor.",
+      "dateInMs": 1728410400000
+    },
+    {
+      "from": "beatriz",
+      "to": "francisco",
+      "content": "Francisco, achas que devemos incluir um desafio final com tudo integrado?",
+      "dateInMs": 1728414000000
+    },
+    {
+      "from": "francisco",
+      "to": "beatriz",
+      "content": "Sim, seria ótimo. Um mini projeto com frontend e backend seria uma boa revisão.",
+      "dateInMs": 1728417600000
+    },
+    {
+      "from": "beatriz",
+      "to": "leandro",
+      "content": "Olá",
+      "dateInMs": 1760085158329
+    },
+    {
+      "from": "beatriz",
+      "to": "ariane",
+      "content": "gyjlrdehteq",
+      "dateInMs": 1760085191398
+    },
+    {
+      "from": "beatriz",
+      "to": "leandro",
+      "content": "Hey!",
+      "dateInMs": 1760102669235
+    },
+    {
+      "from": "beatriz",
+      "to": "leandro",
+      "content": "yturuj7tr",
+      "dateInMs": 1760102801828
+    }
+  ]
+}
